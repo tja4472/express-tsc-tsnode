@@ -1,13 +1,17 @@
 {
   "name": "express-tsc-tsnode",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tja4472/express-tsc-tsnode"
+  },  
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "== tsc ==": "",
     "prebuild": "npm run tslint:fix",
     "build": "tsc",
-    "prestart": "npm run build",
+    "prestart-using-tsc": "npm run build",
     "start-using-tsc": "node .",
     "== ts-node ==": "",
     "prestart-using-ts-node": "npm run tslint:fix",
