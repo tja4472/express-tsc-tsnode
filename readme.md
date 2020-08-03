@@ -36,3 +36,7 @@ https://github.com/microsoft/vscode-js-debug/issues/603
 vscode: 1.47.3. This will work if the new, upcoming JavaScript debugger is disabled by adding `"debug.javascript.usePreview": false` to your user settings.
 
 # References
+
+- (Express)[http://expressjs.com/]
+- (ts-node)[https://github.com/TypeStrong/ts-node]
+- (TypeScript)[https://www.typescriptlang.org/]
